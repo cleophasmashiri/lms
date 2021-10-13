@@ -1,5 +1,4 @@
 # Write, Delete and Read images to AWS S3
----
 
 ```
 
@@ -68,7 +67,6 @@ export const courseImageRemove = (req, res) => {
 <br> <br>
 
 # Send emails with AWS SNS.
----
 
 ```
 
