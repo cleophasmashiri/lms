@@ -1,0 +1,32 @@
+{
+  "name": "learnshape",
+  "version": "1.0.0",
+  "description": "LearnShape",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "test": "next test"
+  },
+  "keywords": [
+    "Learning",
+    "Platform"
+  ],
+  "author": "Cleophas Mashiri",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.6.4",
+    "antd": "^4.13.1",
+    "axios": "^0.21.4",
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "next": "^10.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-image-file-resizer": "^0.4.7",
+    "react-markdown": "^5.0.3",
+    "react-toastify": "^8.0.2"
+  }
+}
