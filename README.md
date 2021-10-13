@@ -70,8 +70,6 @@ export const courseImageRemove = (req, res) => {
 
 ```
 
-import jwt from 'jsonwebtoken';
-import { json } from 'express';
 import aws from 'aws-sdk';
 
 
