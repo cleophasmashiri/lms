@@ -1,6 +1,44 @@
 # Write, Delete and Read images to AWS S3
 
+
+To run app: 
+1. Create client/.env.local as:
+
 ```
+NEXT_PUBLIC_API=http://localhost:8000/api/
+NEXT_PUBLIC_STRIPE_KEY=[STRIPE_KEY To test stipe payment integration]
+
+```
+
+2. Create server/.env as:
+
+```
+PORT=8000
+DATABASE=[YOUR Mongodb url]
+JWT_SECRET=[Your own JWT_SECRET]
+AWS_ACCESS_KEY_ID=[your own AWS_ACCESS_KEY_ID]
+AWS_SECRET_KEY=[your own AWS_SECRET_KEY]
+AWS_REGION_KEY='[your own AWS_REGION_KEY]'
+AWS_API_VERSION_KEY='[your own AWS_API_VERSION_KEY]'
+EMAIL_FROM=[your own EMAIL_FROM]
+STRIPE_SECREAT_KEY=[your own STRIPE_SECREAT_KEY]
+STRIPE_REDIRECT_URL=http://localhost:3000/stipe/callback
+
+```
+
+3 Run:
+
+```
+cd server
+npm start
+
+# in second terminal window
+
+cd client 
+npm run dev
+```
+
+
 
 import aws from 'aws-sdk';
 
