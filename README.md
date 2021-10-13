@@ -1,7 +1,9 @@
 # Write, Delete and Read images to AWS S3
 ---
 <br>
+
 ```
+
 import aws from 'aws-sdk';
 
 const awsConfig = {
@@ -61,7 +63,6 @@ export const courseImageRemove = (req, res) => {
         res.status(400).send('Error uploading image');
     }
 };
-
 
 ```
 
