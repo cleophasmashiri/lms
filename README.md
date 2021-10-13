@@ -66,7 +66,7 @@ export const courseImageRemove = (req, res) => {
 
 <br> <br>
 
-# Send emails with AWS SNS.
+# Send emails with AWS SES.
 
 ```
 
