@@ -39,6 +39,7 @@ npm run dev
 ```
 
 
+```
 
 import aws from 'aws-sdk';
 
@@ -100,11 +101,13 @@ export const courseImageRemove = (req, res) => {
     }
 };
 
+
 ```
 
 <br> <br>
 
 # Send emails with AWS SES.
+
 
 ```
 
